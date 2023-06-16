@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: komal-pod
+  labels:
+    app: my-app
+spec:
+  containers:
+    - name: my-container
+      image: kjha4951/koyal
+      ports:
+        - containerPort: 8000
